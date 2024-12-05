@@ -1,0 +1,53 @@
+name: my_flutter_app
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+  youtube_player_flutter: ^9.1.1
+  shared_preferences: ^2.3.3
+  like_button: ^2.0.0
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  assets:
+    - images/image1.jpg
+    - lib/icons/push-ups.png
+    - lib/icons/burpees.png
+    - lib/icons/man.png
+    - lib/icons/lunges.png
+    - lib/icons/plank.png
+    - lib/icons/training.png
+    - lib/icons/sit-up.png
+    - lib/icons/building.png
+    - lib/icons/squats.png
+
+
+
+
+
+  uses-material-design: true
+
+
+     # Ensure you have this background image
+     # Add a folder for exercise images (for example: 'exercise_images')
+
+
+  # You can include custom fonts here if needed in the future.
+  # family: 'YourCustomFont'
+  # fonts:
+  #   - asset: fonts/YourFont.ttf
+  #   - asset: fonts/YourFont-Bold.ttf
+  #     weight: 700
+
